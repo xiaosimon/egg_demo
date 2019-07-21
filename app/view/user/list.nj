@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="/public/css/user.css" />
   </head>
   <body>
-    <a href='#' onclick="method">click</a>
+    <a href='#' onclick="method">click1</a>
     <ul class="news-view view">
         <table>
           {% for item in list %}
