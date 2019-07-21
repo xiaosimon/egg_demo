@@ -1,0 +1,5 @@
+{
+    "enter_db":"mysql -u root -p",
+    "chose_db":"use simondb",
+    "show_port":"show global variables like 'port';"
+}

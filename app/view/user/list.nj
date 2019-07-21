@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>simon</title>
+    <link rel="stylesheet" href="/public/css/user.css" />
+  </head>
+  <body>
+    <a href='#' onclick="method">click</a>
+    <ul class="news-view view">
+        <table>
+          {% for item in list %}
+          <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+    </ul>
+  </body>
+</html>
