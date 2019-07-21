@@ -1,4 +1,4 @@
-# egg-demo
+# simon-egg
 
 
 
